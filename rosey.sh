@@ -12,6 +12,19 @@ if [ ! -f "$SCRIPT_DIR/rosey_conversation_id.txt" ]; then
     claude "
 You are setting up the Rosey chatbot system. Follow these steps IN ORDER and interactively with the user:
 
+## Step 0: Prerequisites
+Before we start, confirm with the user:
+
+1. **Apple Account for Rosey** — Ask: Are you signed into the Apple account that Rosey will use on this Mac?
+   This needs to be a separate Apple account from your personal one, with iMessage active.
+   If not, they need to sign in first before continuing. Rosey needs her own identity.
+
+2. **Instacart** — Ask: If you want Rosey to shop for groceries, are you already logged into instacart.com in Chrome on this Mac?
+   If they want grocery shopping, they need to be authenticated with Instacart before Rosey can shop.
+   If they don't need groceries, skip this — it's optional.
+
+Wait for the user to confirm before proceeding.
+
 ## Step 1: Install Plugins
 Tell the user:
   Please install the following plugins by running these commands in Claude Code:
@@ -64,13 +77,29 @@ Ask for:
 Whatever they share, write it into the \"Your Family\" section of $SCRIPT_DIR/CLAUDE.md.
 If they skip something, that's fine. Don't push. Rosey will work either way — she'll just be slightly less nosy.
 
-## Step 5: Capture Session ID
+## Step 5: Skylight Calendar Frame (Optional)
+Ask the user: Do you own a Skylight calendar frame?
+
+If YES:
+  Ask if they want Rosey to manage chores on the Skylight (posting and deleting tasks).
+  If they do, ask them for:
+    - Skylight username (email)
+    - Skylight password
+    - Frame ID
+    - Category to post chores to (usually \"Chores\")
+
+  Write these into the \"Skylight\" section of $SCRIPT_DIR/CLAUDE.md so Rosey knows how to connect.
+
+If NO:
+  That's fine. Skip it. Mention that Skylight is a kitchen display that shows chores, calendars, and family photos — worth looking into if they want the kids to see their chores the moment they walk in the door.
+
+## Step 6: Capture Session ID
 Detect the current session ID by reading it from stdin:
   INPUT=\$(cat)
   CLAUDE_SESSION_ID=\$(echo "\$INPUT" | jq -r '.session_id // empty')
 Write the session ID to $SCRIPT_DIR/rosey_conversation_id.txt
 
-## Step 6: Whitelist Family Contacts
+## Step 7: Whitelist Family Contacts
 Tell the user:
   Almost there! You need to allow each family member to communicate with Rosey.
   For each family member from Step 4, run /access allow with their phone number, iCloud address, or email address:
@@ -86,7 +115,7 @@ Tell the user:
 
 Help the user run /access allow for each family member they provided in Step 4.
 
-## Step 7: Done!
+## Step 8: Done!
 Tell the user:
   Rosey is configured! Here's what was set up:
   - iMessage channel plugin (for receiving/sending messages)
