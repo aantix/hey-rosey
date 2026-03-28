@@ -70,6 +70,11 @@ Rosey has access to everything Claude Code has access to. MCP servers. Plugins. 
 
 **Grocery Shopping** — She drives Instacart through Chrome. You text "we need milk, eggs, and something for dinner." She opens a browser, logs in, adds milk, adds eggs, finds a recipe, adds the ingredients, and adds cheese because you always forget the cheese. You did not ask for the cheese. You needed the cheese. She knew that. You didn't.
 
+<p align="center">
+<img src="screenshots/skylight-chores.png" alt="Skylight calendar showing daily chores for each kid" width="600">
+<br><em>Four kids. Daily chores. Assigned before anyone woke up. No one asked. No one escaped.</em>
+</p>
+
 **Chore Management** — She manages Skylight. "Tell the kids to clean the bathroom." Assigned. Timestamped. She does not negotiate with the children. She does not accept counteroffers. She has never once fallen for "but I did it last time." She checked. They didn't.
 
 **Meal Planning** — "Plan dinners for the week, nothing with shrimp, Ace won't eat it." She'll figure it out, build the list, and if you let her, she'll order the groceries too. She is the only member of your household who has ever planned five consecutive dinners without giving up on day three and ordering pizza.
