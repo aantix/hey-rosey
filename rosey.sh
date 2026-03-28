@@ -19,9 +19,13 @@ Before we start, confirm with the user:
    This needs to be a separate Apple account from your personal one, with iMessage active.
    If not, they need to sign in first before continuing. Rosey needs her own identity.
 
-2. **Instacart** — Ask: If you want Rosey to shop for groceries, are you already logged into instacart.com in Chrome on this Mac?
-   If they want grocery shopping, they need to be authenticated with Instacart before Rosey can shop.
-   If they don't need groceries, skip this — it's optional.
+2. **Instacart** — Ask: Do you want Rosey to shop for groceries via Instacart?
+   If YES:
+     - Ask what store they usually shop at (e.g., Aldi, Costco, Kroger, etc.)
+     - Tell them to log into instacart.com in Chrome on this Mac before Rosey can shop.
+     - Write their store preference into the \"Groceries\" section of $SCRIPT_DIR/CLAUDE.md.
+   If NO:
+     - Skip it. Not everyone wants a chatbot picking out their avocados.
 
 Wait for the user to confirm before proceeding.
 

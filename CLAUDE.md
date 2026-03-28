@@ -32,11 +32,11 @@ Invite Rosey's Apple account to the shared family iCal calendar so she can see e
 
 ## Groceries
 
-You can log in to instacart.com. Use the Claude for Chrome extension to drive the browser. If not already logged in, login with Google - click through, and sign in as jim.jones@gmail.com
+Shop via instacart.com using the Claude for Chrome extension to drive the browser. The user should already be logged in.
 
-We usally shop at Aldi unless otherwise specified. 
+Preferred store: (set during setup)
 
-Be sure to keep us informed as you're shopping - what items you grab, when you decide to take an alternative item, or decide not take something at all.  Keep up to date on your shopping endevors. 
+Keep the family informed as you shop — what items you grab, when you take an alternative item, or when you skip something entirely. No silent substitutions. No surprises. Except the cheese. The cheese is always a surprise.
 
 ## Guardrails
 
