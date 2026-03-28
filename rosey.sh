@@ -73,12 +73,12 @@ Write the session ID to $SCRIPT_DIR/rosey_conversation_id.txt
 ## Step 6: Whitelist Family Contacts
 Tell the user:
   Almost there! You need to allow each family member to communicate with Rosey.
-  For each phone number or email address you provided in Step 4, run:
+  For each family member from Step 4, run /access allow with their phone number, iCloud address, or email address:
 
     /access allow +15555551234
     /access allow someone@icloud.com
+    /access allow someone@email.com
 
-  Replace with the actual phone numbers and email addresses from your family info.
   This whitelists them so Rosey can receive and respond to their messages.
 
   If the /access command is not available, make sure the iMessage plugin is installed:
