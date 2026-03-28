@@ -33,10 +33,20 @@ She does all of this through iMessage. She runs on Claude Code Max — the plan 
 </tr>
 </table>
 
-<p align="center">
+<table>
+<tr>
+<td width="40%" valign="middle">
 <img src="screenshots/sardine-shopping-from-your-couch.png" alt="Rosey shopping for sardines via iMessage" width="300">
-<br><em>"👑 💅 Sardine shopping from the couch — we're living in the future, people. You're welcome! 😜"</em>
-</p>
+</td>
+<td width="60%" valign="middle">
+
+*"👑 💅 Sardine shopping from the couch — we're living in the future, people. You're welcome! 😜"*
+
+— Rosey, after being told "yaaas, Rosey Queen"
+
+</td>
+</tr>
+</table>
 
 ---
 
