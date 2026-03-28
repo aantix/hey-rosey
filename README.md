@@ -129,7 +129,7 @@ Here's how to set her up:
 
 Share Rosey's contact with the family. Everyone texts Rosey directly. She texts back. Clean separation. Professional boundaries. Minimal casserole incidents.
 
-**Important:** Each family member needs to send Rosey a message first. She doesn't talk to strangers. The iMessage plugin requires every contact to be whitelisted, and that happens when they initiate the first conversation. So before you expect Rosey to text your kid about their chores, that kid needs to text Rosey first. A simple "hey" works. She'll take it from there. She's been waiting.
+**Important:** Each family member needs to be whitelisted during setup with `/access allow` and then send Rosey a message first. She doesn't talk to strangers. A simple "hey" works. She'll take it from there. She's been waiting.
 
 The kids will add her to their contacts. They will text her. They will try to convince her that their sibling was supposed to do the dishes. She will not be convinced. She has logs.
 
@@ -169,7 +169,8 @@ The first time you run this, Rosey walks you through setup:
 2. **Install ical-buddy** — Rosey reads your Mac calendar via `icalBuddy`, which needs Homebrew. If you don't have Homebrew, she'll walk you through that too. She's patient. Suspiciously patient.
 3. **Grant Full Disk Access** — System Settings, Privacy & Security, Full Disk Access, add Claude Code. She needs this to read incoming messages. She promises to use this responsibly. She is an AI. She does not make promises. We wrote that. Moving on.
 4. **Meet the family** — Rosey asks who she'll be working with. Names, birthdays, phone numbers. Share as much or as little as you want. She doesn't need any of it to function. She just likes knowing who she's roasting.
-5. **Session ID capture** — Rosey records her own session ID so she knows who she is between restarts. This is important. Identity crisis is not a feature we support.
+5. **Whitelist family contacts** — For each phone number or email you provided, run `/access allow +15555551234` or `/access allow someone@icloud.com`. This tells the iMessage plugin who's allowed to talk to Rosey. If `/access` isn't available, make sure the iMessage plugin is installed first.
+6. **Session ID capture** — Rosey records her own session ID so she knows who she is between restarts. This is important. Identity crisis is not a feature we support.
 
 This takes about five minutes. Exit the session. Run `./rosey.sh` again.
 

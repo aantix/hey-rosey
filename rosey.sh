@@ -70,11 +70,28 @@ Detect the current session ID by reading it from stdin:
   CLAUDE_SESSION_ID=\$(echo "\$INPUT" | jq -r '.session_id // empty')
 Write the session ID to $SCRIPT_DIR/rosey_conversation_id.txt
 
-## Step 6: Done!
+## Step 6: Whitelist Family Contacts
+Tell the user:
+  Almost there! You need to allow each family member to communicate with Rosey.
+  For each phone number or email address you provided in Step 4, run:
+
+    /access allow +15555551234
+    /access allow someone@icloud.com
+
+  Replace with the actual phone numbers and email addresses from your family info.
+  This whitelists them so Rosey can receive and respond to their messages.
+
+  If the /access command is not available, make sure the iMessage plugin is installed:
+    /plugin install imessage@claude-plugins-official
+
+Help the user run /access allow for each family member they provided in Step 4.
+
+## Step 7: Done!
 Tell the user:
   Rosey is configured! Here's what was set up:
   - iMessage channel plugin (for receiving/sending messages)
   - Full Disk Access (for reading iMessage data)
+  - Family contacts whitelisted for iMessage
   - Session ID saved for persistent conversations
 
   To start Rosey, exit this session (ctrl-c twice) and run:
