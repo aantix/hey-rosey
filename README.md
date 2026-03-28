@@ -63,6 +63,11 @@ You already paid for the buffet. Eat the shrimp.
 
 Rosey has access to everything Claude Code has access to. MCP servers. Plugins. Chrome automation. She did not come here to be limited. She came here to run things.
 
+<p align="center">
+<img src="screenshots/rosey-instacart-order.png" alt="Rosey's Instacart order — 54 items, Aldi" width="600">
+<br><em>54 items. $238.39. Aldi. She didn't even ask.</em>
+</p>
+
 **Grocery Shopping** — She drives Instacart through Chrome. You text "we need milk, eggs, and something for dinner." She opens a browser, logs in, adds milk, adds eggs, finds a recipe, adds the ingredients, and adds cheese because you always forget the cheese. You did not ask for the cheese. You needed the cheese. She knew that. You didn't.
 
 **Chore Management** — She manages Skylight. "Tell the kids to clean the bathroom." Assigned. Timestamped. She does not negotiate with the children. She does not accept counteroffers. She has never once fallen for "but I did it last time." She checked. They didn't.
