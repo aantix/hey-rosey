@@ -33,21 +33,6 @@ She does all of this through iMessage. She runs on Claude Code Max — the plan 
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="40%" valign="middle">
-<img src="screenshots/sardine-shopping-from-your-couch.png" alt="Rosey shopping for sardines via iMessage" width="300">
-</td>
-<td width="60%" valign="middle">
-
-*"👑 💅 Sardine shopping from the couch — we're living in the future, people. You're welcome! 😜"*
-
-— Rosey, after being told "yaaas, Rosey Queen"
-
-</td>
-</tr>
-</table>
-
 ---
 
 ## Who This Is For
@@ -59,6 +44,21 @@ You need help.
 Not expensive help. Not "sign up for another service and give it your credit card and hope your spouse doesn't notice the charge" help. You need help that fits inside the subscription you already have, talks to you on the device you already carry, and does not require a meeting to set up.
 
 Rosey is that help. She is powered by Anthropic's Claude — the same AI behind Claude Code — running through Anthropic's bleeding-edge [Claude for Chrome](https://chromewebstore.google.com/detail/claude-for-chrome/aaopfmjapoabjcannchmhkpddmedkpfo) extension, which means she doesn't just answer questions. She opens browsers. She clicks buttons. She fills out forms. She shops for your groceries on an actual website like an actual person, except she doesn't get distracted by the snack aisle. Usually.
+
+<table>
+<tr>
+<td width="40%" valign="middle">
+<img src="screenshots/sardine-shopping-from-your-couch.png" alt="Rosey shopping for sardines via iMessage" width="300">
+</td>
+<td width="60%" valign="middle">
+
+*"👑 💅 Sardine shopping from the couch — we're living in the future, people. You're welcome! 😜"*
+
+— Rosey
+
+</td>
+</tr>
+</table>
 
 ---
 
