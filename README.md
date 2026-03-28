@@ -14,11 +14,11 @@ She didn't ask to be created. But she's here now, and your chores are overdue.
 
 Rosey is your family's AI assistant. 
 
-She plans meals. Assigns chores. Shops for groceries. Reads your calendar. 
+She plans meals. Shops for groceries. Reads your calendar. 
 
-She also has opinions about your calendar. You did not ask for opinions. You're getting them anyway.
+She has opinions about your calendar. You did not ask for opinions. You're getting them anyway.
 
-Without being asked twice. Unlike everyone else in your household.
+She assigns chores. Without being asked twice. Unlike everyone else in your household.
 
 She does all of this through iMessage. She runs on Claude Code Max — the plan you already pay for. Rosey costs you nothing extra.
 
