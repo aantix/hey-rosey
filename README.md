@@ -270,6 +270,9 @@ A: She can research venues, compare options, check availability, and present rec
 **Q: How do I add more capabilities?**
 A: Add MCP servers and plugins to Claude Code. Rosey inherits all of them. Smart home, task management, whatever your family needs. This is the same answer as "how does Claude Code work" and we're choosing not to overthink it.
 
+**Q: Is using Claude Code as a personal assistant against Anthropic's Terms of Service?**
+A: We looked into it. It appears to be in line with their terms of service. We even [asked another AI to check](https://x.com/i/grok/share/5eb25322209845be8e109452970188db), because asking one AI about the legal boundaries of using a different AI felt appropriately on-brand for this project. You're using Claude Code as intended — running prompts, using plugins, automating tasks. You're just doing it from iMessage instead of a terminal. Rosey is not worried. Rosey is never worried. That is your job.
+
 **Q: What about Open Claw?**
 A: We tried it. The documentation was thorough. The setup was detailed. The YAML files were numerous and heartfelt. It's honestly not that bad. It's substantially worse.
 
