@@ -85,6 +85,21 @@ Rosey has access to everything Claude Code has access to. MCP servers. Plugins. 
 
 **Grocery Shopping** — She drives Instacart through Chrome. You text "we need milk, eggs, and something for dinner." She opens a browser, logs in, adds milk, adds eggs, finds a recipe, adds the ingredients, and adds cheese because you always forget the cheese. You did not ask for the cheese. You needed the cheese. She knew that. You didn't.
 
+<table>
+<tr>
+<td width="40%" valign="middle">
+<img src="screenshots/groceries-arrived.png" alt="Aldi groceries that Rosey ordered" width="300">
+</td>
+<td width="60%" valign="middle">
+
+*The groceries that Rosey ordered have arrived.*
+
+You were on the couch. She was in Chrome. Aldi didn't know the difference.
+
+</td>
+</tr>
+</table>
+
 <p align="center">
 <img src="screenshots/skylight-chores.png" alt="Skylight calendar showing daily chores for each kid" width="600">
 <br><em>Four kids. Daily chores. Assigned before anyone woke up. No one asked. No one escaped.</em>
@@ -139,7 +154,7 @@ This is optional but it's where the magic gets visible.
 
 A [Skylight Calendar](https://www.amazon.com/s?k=skylight+calendar) is a touchscreen display that sits in your kitchen. Chores. Schedules. Family photos. It's the first thing the kids see when they walk in from school, which means it's the first thing they try to ignore.
 
-Rosey updates it. Automatically. Daily chores, assigned and posted before anyone wakes up. No nagging. No reminders. No "I didn't know it was my turn." It's on the Skylight. It's been on the Skylight since 6 AM. Rosey put it there. She was up before you. She is always up before you. She does not sleep. We've been over this.
+Tell Rosey to update the chores daily, and she will. Automatically. Every morning, before anyone wakes up. No nagging. No reminders. No "I didn't know it was my turn." It's on the Skylight. It's been on the Skylight since 6 AM. Rosey put it there. She was up before you. She is always up before you. She does not sleep. We've been over this.
 
 ### Two Ways to Talk to Rosey
 
