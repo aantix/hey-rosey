@@ -346,4 +346,21 @@ By using this software, you acknowledge that:
 
 ---
 
+<table>
+<tr>
+<td width="40%" valign="middle">
+<img src="screenshots/future-is-now.png" alt="Stack of sardines Rosey ordered" width="300">
+</td>
+<td width="60%" valign="middle">
+
+*"The future is now."*
+
+— Jim
+
+</td>
+</tr>
+</table>
+
+---
+
 *No shrimp were harmed in the making of this project. The cheese was added without your consent. You needed it. Your kids did not do their chores. Rosey checked.*
