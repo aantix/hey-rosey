@@ -355,7 +355,7 @@ By using this software, you acknowledge that:
 
 *"The future is now."*
 
-— Jim
+— Jim. The sardines arrived. Full circle.
 
 </td>
 </tr>
