@@ -52,7 +52,7 @@ Rosey is that help. She is powered by Anthropic's Claude — the same AI behind 
 </td>
 <td width="60%" valign="middle">
 
-*"👑 💅 Sardine shopping from the couch — we're living in the future, people. You're welcome! 😜"*
+*"👑 💅 Sardine shopping from the couch — we're living in the future, people."*
 
 — Rosey
 
