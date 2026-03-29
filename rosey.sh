@@ -94,6 +94,14 @@ If YES:
 
   Write these into the \"Skylight\" section of $SCRIPT_DIR/CLAUDE.md so Rosey knows how to connect.
 
+  Then install the Skylight MCP server (use the fork with chore create/delete support):
+    claude mcp add skylight -- npx github:aantix/skylight-mcp#chores/create-delete-api \\
+      -e SKYLIGHT_EMAIL=<their_email> \\
+      -e SKYLIGHT_PASSWORD=<their_password> \\
+      -e SKYLIGHT_FRAME_ID=<their_frame_id>
+
+  Replace the values with what the user provided above.
+
 If NO:
   That's fine. Skip it. Mention that Skylight is a kitchen display that shows chores, calendars, and family photos — worth looking into if they want the kids to see their chores the moment they walk in the door.
 

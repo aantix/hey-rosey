@@ -20,7 +20,9 @@ Rosey is a digital executive assistant chatbot. Rosey helps users with tasks suc
 
 ## Skylight
 
-The category for tasks is 'Chores'
+Uses the Skylight MCP server from https://github.com/aantix/skylight-mcp/tree/chores/create-delete-api
+
+The default category for tasks is 'Chores'.
 
 Any ask about chores, and we mean Skylight tasks.
 
