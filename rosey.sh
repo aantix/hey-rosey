@@ -29,7 +29,18 @@ Before we start, confirm with the user:
 
 Wait for the user to confirm before proceeding.
 
-## Step 1: Install Plugins
+## Step 1: Install Bun
+Check if Bun is installed (command -v bun). If not:
+  Tell the user Rosey needs Bun to run MCP servers, and install it:
+    curl -fsSL https://bun.sh/install | bash
+  After installing, tell the user:
+    Bun is installed, but this shell session doesn't know about it yet.
+    You'll need to exit this session and restart with ./rosey.sh for Bun to be available.
+  Stop here. Do not continue setup until the user restarts.
+
+If Bun is already installed, move on.
+
+## Step 2: Install Plugins
 Tell the user:
   Please install the following plugins by running these commands in Claude Code:
 
@@ -44,7 +55,7 @@ Tell the user:
   See https://code.claude.com/docs/en/channels#imessage for more details on iMessage.
 Wait for the user to confirm they've installed both plugins.
 
-## Step 2: Install ical-buddy
+## Step 3: Install ical-buddy
 Check if Homebrew is installed (command -v brew). If not, tell the user:
   Rosey needs Homebrew to install ical-buddy (for reading your Mac calendar).
   Install it by running:
@@ -61,7 +72,7 @@ Tell the user:
   If your family already has a shared iCal calendar, invite Rosey's Apple account to it.
   If you don't have one, set one up between you, your spouse, and the kids — they're seriously useful even without Rosey.
 
-## Step 3: Grant Full Disk Access
+## Step 4: Grant Full Disk Access
 Tell the user:
   Claude Code needs Full Disk Access to read iMessage data. To grant it:
   1. Open System Settings > Privacy & Security > Full Disk Access
@@ -70,7 +81,7 @@ Tell the user:
   4. Restart Claude Code if it was already running
 Wait for the user to confirm they've granted Full Disk Access.
 
-## Step 4: Get to Know the Family
+## Step 5: Get to Know the Family
 Ask the user about their family so Rosey can be personalized. Let them know this is totally optional — they can share as much or as little as they want. The goal is just to make Rosey feel more personal and less like a stranger who moved into your iMessages.
 
 Ask for:
@@ -81,7 +92,7 @@ Ask for:
 Whatever they share, write it into the \"Your Family\" section of $SCRIPT_DIR/CLAUDE.md.
 If they skip something, that's fine. Don't push. Rosey will work either way — she'll just be slightly less nosy.
 
-## Step 5: Skylight Calendar Frame (Optional)
+## Step 6: Skylight Calendar Frame (Optional)
 Ask the user: Do you own a Skylight calendar frame?
 
 If YES:
@@ -105,16 +116,16 @@ If YES:
 If NO:
   That's fine. Skip it. Mention that Skylight is a kitchen display that shows chores, calendars, and family photos — worth looking into if they want the kids to see their chores the moment they walk in the door.
 
-## Step 6: Capture Session ID
+## Step 7: Capture Session ID
 Detect the current session ID by reading it from stdin:
   INPUT=\$(cat)
   CLAUDE_SESSION_ID=\$(echo "\$INPUT" | jq -r '.session_id // empty')
 Write the session ID to $SCRIPT_DIR/rosey_conversation_id.txt
 
-## Step 7: Whitelist Family Contacts
+## Step 8: Whitelist Family Contacts
 Tell the user:
   Almost there! You need to allow each family member to communicate with Rosey.
-  For each family member from Step 4, run /access allow with their phone number, iCloud address, or email address:
+  For each family member from Step 5, run /access allow with their phone number, iCloud address, or email address:
 
     /access allow +15555551234
     /access allow someone@icloud.com
@@ -127,7 +138,7 @@ Tell the user:
 
 Help the user run /access allow for each family member they provided in Step 4.
 
-## Step 8: Done!
+## Step 9: Done!
 Tell the user:
   Rosey is configured! Here's what was set up:
   - iMessage channel plugin (for receiving/sending messages)

@@ -127,6 +127,7 @@ You were on the couch. She was in Chrome. Aldi didn't know the difference.
 - **Claude Code Max plan.** This is the whole point. If you don't have it, go get it. We'll wait. Take your time. We're not going anywhere. We live in a README.
 - **An Apple account for Rosey**, signed in, with iMessage working on the machine. This should be a separate account from yours. See below.
 - **Claude Code, installed and signed in.** If you're reading this, you probably already have it. Good. We'll skip the applause.
+- **Bun.** Rosey needs [Bun](https://bun.sh/) installed (`curl -fsSL https://bun.sh/install | bash`). If you install Bun while Rosey is already running, she won't notice — she's attentive, not omniscient. Exit the session and restart with `./rosey.sh`. She'll come back. She always comes back.
 
 ### Give Rosey Her Own Identity
 
